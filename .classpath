@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="soot-infoflow-summaries/src"/>
+	<classpathentry kind="src" path="soot-infoflow/src"/>
+	<classpathentry kind="src" path="soot-infoflow-cmd/src"/>
+	<classpathentry kind="src" path="soot-infoflow-android/src"/>
+	<classpathentry kind="lib" path="E:/libs/soot-4.2.1-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="E:/libs/axml-2.0.0.jar"/>
+	<classpathentry kind="lib" path="E:/libs/axmlprinter-2016-07-27.jar"/>
+	<classpathentry kind="lib" path="E:/libs/commons-cli-1.4.jar"/>
+	<classpathentry kind="lib" path="E:/libs/cos-05Nov2002.jar"/>
+	<classpathentry kind="lib" path="E:/libs/dexlib2-2.2.5.jar"/>
+	<classpathentry kind="lib" path="E:/libs/guava-25.1-jre.jar"/>
+	<classpathentry kind="lib" path="E:/libs/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="E:/libs/heros-1.0.1-20181001.111040-3.jar"/>
+	<classpathentry kind="lib" path="E:/libs/j2ee-1.4.jar"/>
+	<classpathentry kind="lib" path="E:/libs/jasmin-2.5.0-20171106.170234-163.jar"/>
+	<classpathentry kind="lib" path="E:/libs/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="E:/libs/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="E:/libs/protobuf-java-2.5.0.jar"/>
+	<classpathentry kind="lib" path="E:/libs/slf4j-api-1.7.5.jar"/>
+	<classpathentry kind="lib" path="E:/libs/slf4j-log4j12-1.7.21.jar"/>
+	<classpathentry kind="lib" path="E:/libs/soot-infoflow-2.7.1.jar"/>
+	<classpathentry kind="lib" path="E:/libs/soot-infoflow-android-2.7.1.jar"/>
+	<classpathentry kind="lib" path="E:/libs/soot-infoflow-summaries-2.7.1.jar"/>
+	<classpathentry kind="lib" path="E:/libs/trove4j-3.0.3.jar"/>
+	<classpathentry kind="lib" path="E:/libs/commons-io-2.11.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

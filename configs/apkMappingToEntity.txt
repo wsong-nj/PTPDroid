@@ -1,0 +1,12 @@
+//apk包名和第三方实体的映射关系，只包含无法从包名获取信息的映射；读取每行，逗号作为分隔符
+sgiggle,tango
+com.ss,tiktok
+org.chromium,google
+firefox,mozilla
+moat,oracle
+admob,google
+wechat,tencent
+amazon.device.ads,amazonad
+adviewutils,adview
+AdviewUtils,adview
+dropbox,oracle

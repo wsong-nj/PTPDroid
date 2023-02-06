@@ -1,0 +1,30 @@
+//隐私本体；读取每行，逗号作为分隔符
+information,network information
+information,device information
+information,personal information
+network information,ip address
+network information,browser information
+network information,cookie
+network information,SSID
+network information,url
+device information,device identifier
+device identifier,cookie
+device identifier,advertising id
+device identifier,android id
+device identifier,IMEI
+device identifier,MSISDN
+device identifier,SIM Serial Number
+device identifier,IMSI
+device identifier,hardware setting
+device identifier,bluetooth information
+personal information,location
+personal information,app list
+personal information,message
+personal information,account
+personal information,calendar
+personal information,bookmark
+personal information,email
+personal information,contact
+personal information,media
+personal information,sms
+personal information,phone number

@@ -1,0 +1,68 @@
+//api方法和隐私本体的映射关系，读取每行，分号作为分隔符
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>  ;  IMEI
+<android.telephony.TelephonyManager: java.lang.String getLine1Number()> ; phone number
+<android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()> ; SIM Serial Number
+<android.telephony.TelephonyManager: java.lang.String getSubscriberId()> ;  IMEI
+<android.location.Location: double getLatitude()> ; location
+<android.location.Location: double getLongitude()>; location
+<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>; location
+<android.telephony.gsm.GsmCellLocation: int getCid()>; location
+<android.telephony.gsm.GsmCellLocation: int getLac()>; location
+<java.util.Locale: java.lang.String getCountry()>;location
+<android.media.AudioRecord: int read(short[],int,int)> ;media
+<android.media.AudioRecord: int read(byte[],int,int)> ;media
+<android.media.AudioRecord: int read(java.nio.ByteBuffer,int)> ;media
+<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>;app list
+<android.app.ApplicationPackageManager: java.util.List getInstalledApplications(int)>;app list
+<android.app.ApplicationPackageManager: java.util.List getInstalledPackages(int)> ->;app list
+<android.app.ApplicationPackageManager: java.util.List getInstalledPackages(int,int)>;app list
+<android.os.Handler: android.os.Message obtainMessage()> ;message
+<android.os.Handler: android.os.Message obtainMessage(int,int,int)>  ;message
+<android.os.Handler: android.os.Message obtainMessage(int,int,int,java.lang.Object)> ;message
+<android.os.Handler: android.os.Message obtainMessage(int)>  ;message
+<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>  ;message
+<android.accounts.AccountManager: android.accounts.Account[] getAccounts()> ;account
+<java.util.Calendar: java.util.TimeZone getTimeZone()> ;calendar
+<android.bluetooth.BluetoothAdapter: java.lang.String getAddress()> ;bluetooth setting
+<android.bluetooth.BluetoothAdapter: java.lang.String getName()> ; bluetooth setting
+<android.webkit.CookieManager: java.lang.String getCookie(android.net.WebAddress)> ->; cookie
+<android.webkit.CookieManager: java.lang.String getCookie(java.lang.String,boolean)> ; cookie
+<android.webkit.CookieManager: java.lang.String getCookie(java.lang.String)> ; cookie
+<android.webkit.CookieManagerClassic: java.lang.String getCookie(android.net.WebAddress)> ; cookie
+<android.app.ActivityManager: android.content.pm.ConfigurationInfo getDeviceConfigurationInfo()> ; hardware setting
+<android.net.wifi.WifiManager: android.net.DhcpInfo getDhcpInfo()> ; ip address
+<android.net.wifi.WifiInfo: java.lang.String getMacAddress()> ;mac address
+<android.net.wifi.WifiInfo: java.lang.String getSSID()>;wifi information
+<android.net.wifi.WifiInfo: java.lang.String getSSID()>;wifi information
+<android.provider.Browser: android.database.Cursor getAllBookmarks()>;bookmark
+<android.webkit.BrowserFrame: java.lang.String getUserAgentString()>;browser information
+<android.view.textservice.SuggestionsInfo: int getCookie()> ;cookie
+<android.view.textservice.TextInfo: int getCookie()>;cookie
+<android.provider.Browser: android.database.Cursor getAllVisitedUrls()> ;url
+<org.springframework.security.config.authentication.CachingUserDetailsService: org.springframework.security.core.userdetails.UserDetails loadUserByUsername(java.lang.String)>;personal information
+<org.springframework.security.core.userdetails.UserDetailsByNameServiceWrapper: org.springframework.security.core.userdetails.UserDetails loadUserDetails(org.springframework.security.core.Authentication)>;personal information
+<com.google.android.gms.ads.identifier.AdvertisingIdClient: com.google.android.gms.ads.identifier.AdvertisingIdClient.Info getAdvertisingIdInfo(android.content.Context)>;advertising id
+<com.google.android.gms.ads.identifier.AdvertisingIdClient.Info: java.lang.String getId()>;advertising id
+<com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAndroidId(android.content.Context)>;android id
+<com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAndroidIdViaReflection(android.content.Context)>;android id
+<com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAndroidIdViaService(android.content.Context)>;android id
+<com.facebook.internal.AttributionIdentifiers: java.lang.String getAndroidAdvertiserId()>;advertising id
+<com.facebook.internal.AttributionIdentifiers: java.lang.String getAdvertiserId()>;advertising id
+<com.facebook.internal.Utility: void setAppEventAttributionParameters(org.json.JSONObject,com.facebook.internal.AttributionIdentifiers,java.lang.String,boolean)>;advertising id
+<com.facebook.internal.AppEventsLoggerUtility: org.json.JSONObject getJSONObjectForGraphAPICall(com.facebook.internal.AppEventsLoggerUtility$GraphAPIActivityType,com.facebook.internal.AttributionIdentifiers,java.lang.String,boolean,android.content.Context)>;advertising id
+<android.os.SystemProperties: long getLong(java.lang.String,long)>;serial number
+<android.os.SystemProperties: int getInt(java.lang.String,int)>;serial number
+<android.os.SystemProperties: java.lang.String get(java.lang.String)>;serial number
+<android.os.SystemProperties: java.lang.String get(java.lang.String,java.lang.String)>;serial number
+<android.location.Address: java.lang.String getAdminArea()>;location
+<android.location.Location: getBearing()>;location
+<android.location.LocationManager: java.lang.String getBestProvider(android.location.Criteria,boolean)>;location
+<android.view.MotionEvent: int getDeviceId()>;device id
+<android.view.KeyEvent: int getDeviceId()>;device id
+<android.location.LocationProvider: int getAccuracy()>;location
+<android.view.InputDevice: java.lang.String getDescriptor()>;device description
+<android.view.InputDevice: java.lang.String getName()>;device description
+<android.hardware.input.InputManager: int[] getInputDeviceIds()>;device description
+<android.app.ApplicationPackageManager: java.util.List getInstalledApplications(int)>;app list
+<android.telephony.SmsMessage: java.lang.String getMessageBody()>;sms message
+<android.telephony.SmsMessage: java.lang.String getDisplayMessageBody()>;sms message
